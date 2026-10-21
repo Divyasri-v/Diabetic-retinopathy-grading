@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of a retinal fundus photograph">
+<defs>
+<radialGradient id="fundus" cx="42%" cy="48%" r="62%">
+<stop offset="0" stop-color="#F08A4B"/><stop offset="0.55" stop-color="#C9592F"/><stop offset="1" stop-color="#6E2418"/>
+</radialGradient>
+<radialGradient id="disc" cx="50%" cy="50%" r="50%">
+<stop offset="0" stop-color="#FFF1C4"/><stop offset="1" stop-color="#F2B65E"/>
+</radialGradient>
+<clipPath id="eye"><circle cx="200" cy="200" r="178"/></clipPath>
+</defs>
+<circle cx="200" cy="200" r="190" fill="#06151F"/>
+<circle cx="200" cy="200" r="186" fill="none" stroke="#2B6B7C" stroke-width="2"/>
+<g clip-path="url(#eye)">
+<circle cx="200" cy="200" r="178" fill="url(#fundus)"/>
+<g fill="none" stroke="#6B1A12" stroke-linecap="round">
+<path d="M128 192 C150 125 215 78 322 84" stroke-width="5"/>
+<path d="M128 192 C160 150 245 126 352 150" stroke-width="3.5"/>
+<path d="M128 192 C150 262 215 318 322 318" stroke-width="5"/>
+<path d="M128 192 C165 245 255 272 352 252" stroke-width="3.5"/>
+<path d="M214 100 C236 112 262 114 290 108" stroke-width="2"/>
+<path d="M190 116 C186 90 196 70 214 56" stroke-width="2"/>
+<path d="M232 142 C258 150 292 148 318 140" stroke-width="2"/>
+<path d="M214 300 C236 288 262 286 290 292" stroke-width="2"/>
+<path d="M190 284 C186 312 196 330 214 344" stroke-width="2"/>
+<path d="M232 258 C258 250 292 252 318 260" stroke-width="2"/>
+<path d="M270 98 C296 112 326 120 350 114" stroke-width="1.5"/>
+<path d="M270 304 C296 290 326 282 350 288" stroke-width="1.5"/>
+</g>
+<circle cx="262" cy="200" r="24" fill="#8E3420" opacity="0.55"/>
+<circle cx="262" cy="200" r="9" fill="#7A2A1A" opacity="0.7"/>
+<g fill="#4D0F0A" opacity="0.8">
+<circle cx="224" cy="176" r="2.2"/><circle cx="238" cy="224" r="2"/><circle cx="296" cy="176" r="2.4"/>
+<circle cx="300" cy="226" r="1.8"/><circle cx="206" cy="236" r="2"/>
+</g>
+<g fill="#F6DE9A" opacity="0.7">
+<circle cx="288" cy="214" r="3"/><circle cx="302" cy="190" r="2.4"/><circle cx="276" cy="238" r="2.6"/>
+</g>
+<circle cx="128" cy="192" r="27" fill="url(#disc)"/>
+<circle cx="128" cy="192" r="11" fill="#FFF8DE" opacity="0.8"/>
+<ellipse cx="150" cy="120" rx="110" ry="46" fill="#fff" opacity="0.06" transform="rotate(-24 150 120)"/>
+</g>
+</svg>

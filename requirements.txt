@@ -1,0 +1,9 @@
+# Python 3.10, 3.11, 3.12 or 3.13 (64-bit) is recommended. Python 3.14 is not yet supported by TensorFlow.
+streamlit>=1.52,<2
+tensorflow>=2.20,<3
+keras>=3.13.2,<4
+numpy>=1.26
+pillow>=10.0
+matplotlib>=3.8
+scikit-learn>=1.4
+pandas>=2.0

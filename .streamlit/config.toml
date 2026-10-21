@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#0F7C86"
+backgroundColor = "#F3F8F9"
+secondaryBackgroundColor = "#E4EEF0"
+textColor = "#17323F"
+font = "sans serif"
+
+[server]
+maxUploadSize = 20
+headless = false
+
+[browser]
+# Stops Streamlit asking for an email address the first time it runs.
+gatherUsageStats = false
